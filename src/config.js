@@ -25,20 +25,21 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [{
-    growEditionSizeTo: 18,
+    growEditionSizeTo: 5,
     layersOrder: [
         { name: 'skin' },
         { name: 'eyes' },
-        { name: 'chest' },
+        { name: 'chest', },
         { name: 'tail' },
         { name: 'mouth' },
-        { name: 'background' },
+        { name: 'background'
+            options: { blend: MODE.overlay, opacity: 0.7 } },
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
         { name: '3rd_eye' },
         { name: 'head' },
-        { name: 'joint' },
+
     ],
 }, ];
 
@@ -72,7 +73,7 @@ const text = {
 };
 
 const pixelFormat = {
-    ratio: 2 / 128,
+    ratio: 1 / 128,
 };
 
 const background = {
