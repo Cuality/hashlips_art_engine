@@ -72,7 +72,7 @@ const text = {
 };
 
 const pixelFormat = {
-    ratio: 108 / 128,
+    ratio: 88 / 128,
 };
 
 const background = {
@@ -82,7 +82,9 @@ const background = {
     default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+    creator: "Kristen C.",
+};
 
 const rarityDelimiter = "#";
 
