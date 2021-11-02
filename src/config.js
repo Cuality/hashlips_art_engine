@@ -29,7 +29,7 @@ const layerConfigurations = [{
     layersOrder: [
         { name: 'skin' },
         { name: 'eyes' },
-        { name: 'chest', },
+        { name: 'chest' },
         { name: 'tail' },
         { name: 'mouth' },
         { name: 'background', },
@@ -72,7 +72,7 @@ const text = {
 };
 
 const pixelFormat = {
-    ratio: 1 / 128,
+    ratio: 108 / 128,
 };
 
 const background = {
