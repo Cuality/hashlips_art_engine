@@ -32,7 +32,7 @@ const layerConfigurations = [{
         { name: 'chest', },
         { name: 'tail' },
         { name: 'mouth' },
-        { name: 'background', options: { blend: MODE.overlay, opacity: 0.7 } },
+        { name: 'background', },
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
