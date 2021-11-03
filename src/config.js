@@ -122,8 +122,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-    width: 502,
-    height: 774,
+    width: 378,
+    height: 649,
 };
 
 const gif = {
