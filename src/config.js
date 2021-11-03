@@ -24,15 +24,16 @@ const solanaMetadata = {
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
+// create 2400  with 3rd eye & tie no overlay
 const layerConfigurations = [{
-    growEditionSizeTo: 8,
+    growEditionSizeTo: 2400,
     layersOrder: [
         { name: 'skin' },
         { name: 'eyes' },
         { name: 'chest' },
         { name: 'tail' },
         { name: 'mouth' },
-        { name: 'background', },
+        { name: 'background' },
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
@@ -41,8 +42,8 @@ const layerConfigurations = [{
 
     ],
 }, {
-    // Creates an additional 100 artworks
-    growEditionSizeTo: 18,
+    // Creates an additional 100 overlay artworks 1000 with 3rd eye & tie overlay
+    growEditionSizeTo: 3400,
     layersOrder: [
         { name: 'skin' },
         { name: 'eyes' },
@@ -54,8 +55,35 @@ const layerConfigurations = [{
         { name: 'shadow' },
         { name: 'tie' },
         { name: '3rd_eye' },
+        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
+    ],
+}, {
+    // Creates an additional 100 standard artworks 3900
+    growEditionSizeTo: 7300,
+    layersOrder: [
+        { name: 'skin' },
+        { name: 'eyes' },
+        { name: 'chest' },
+        { name: 'tail' },
+        { name: 'mouth' },
+        { name: 'background', },
+        { name: 'floor' },
+        { name: 'shadow' },
         { name: 'head' },
-        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.7 } },
+    ],
+}, {
+    // Creates an additional 100 overlay artworks 1576
+    growEditionSizeTo: 8876,
+    layersOrder: [
+        { name: 'skin' },
+        { name: 'eyes' },
+        { name: 'chest' },
+        { name: 'tail' },
+        { name: 'mouth' },
+        { name: 'background', },
+        { name: 'floor' },
+        { name: 'shadow' },
+        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
     ],
 }, ];
 
@@ -100,7 +128,7 @@ const background = {
 };
 
 const extraMetadata = {
-    creator: "Kristen C.",
+    creator: "K.S.C.",
 };
 
 const rarityDelimiter = "#";
