@@ -25,7 +25,7 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [{
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 8,
     layersOrder: [
         { name: 'skin' },
         { name: 'eyes' },
@@ -39,6 +39,23 @@ const layerConfigurations = [{
         { name: '3rd_eye' },
         { name: 'head' },
 
+    ],
+}, {
+    // Creates an additional 100 artworks
+    growEditionSizeTo: 18,
+    layersOrder: [
+        { name: 'skin' },
+        { name: 'eyes' },
+        { name: 'chest' },
+        { name: 'tail' },
+        { name: 'mouth' },
+        { name: 'background', },
+        { name: 'floor' },
+        { name: 'shadow' },
+        { name: 'tie' },
+        { name: '3rd_eye' },
+        { name: 'head' },
+        { name: 'overlay' },
     ],
 }, ];
 
