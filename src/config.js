@@ -55,7 +55,7 @@ const layerConfigurations = [{
         { name: 'tie' },
         { name: '3rd_eye' },
         { name: 'head' },
-        { name: 'overlay' },
+        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.7 } },
     ],
 }, ];
 
