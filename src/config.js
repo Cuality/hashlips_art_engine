@@ -72,7 +72,7 @@ const text = {
 };
 
 const pixelFormat = {
-    ratio: 88 / 128,
+    ratio: 38 / 128,
 };
 
 const background = {
