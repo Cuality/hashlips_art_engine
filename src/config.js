@@ -28,7 +28,7 @@ const solanaMetadata = {
 const layerConfigurations = [{
     growEditionSizeTo: 2000,
     layersOrder: [
-        { name: 'skin' },
+        { name: 'tailedskin' },
         { name: 'eyes' },
         { name: 'chest' },
         { name: 'tail' },
@@ -64,7 +64,7 @@ const layerConfigurations = [{
         { name: 'eyes' },
         { name: 'chest' },
         { name: 'mouth' },
-        { name: 'background' },
+        { name: 'notailbackground' },
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
@@ -80,7 +80,7 @@ const layerConfigurations = [{
         { name: 'eyes' },
         { name: 'chest' },
         { name: 'mouth' },
-        { name: 'background', },
+        { name: 'notailbackground', },
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
