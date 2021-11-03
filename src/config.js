@@ -147,12 +147,12 @@ const text = {
 };
 
 const pixelFormat = {
-    ratio: 13 / 128,
+    ratio: 11 / 128,
 };
 
 const background = {
     generate: true,
-    brightness: "80%",
+    brightness: "66%",
     static: false,
     default: "#000000",
 };
