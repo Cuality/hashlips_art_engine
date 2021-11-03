@@ -26,7 +26,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 // create 2400  with 3rd eye & tie no overlay
 const layerConfigurations = [{
-    growEditionSizeTo: 2400,
+    growEditionSizeTo: 2000,
     layersOrder: [
         { name: 'skin' },
         { name: 'eyes' },
@@ -43,9 +43,9 @@ const layerConfigurations = [{
     ],
 }, {
     // Creates an additional 100 overlay artworks 1000 with 3rd eye & tie overlay
-    growEditionSizeTo: 3400,
+    growEditionSizeTo: 2900,
     layersOrder: [
-        { name: 'skin' },
+        { name: 'tailedskin' },
         { name: 'eyes' },
         { name: 'chest' },
         { name: 'tail' },
@@ -58,10 +58,40 @@ const layerConfigurations = [{
         { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
     ],
 }, {
-    // Creates an additional 100 standard artworks 3900
+    growEditionSizeTo: 4100,
+    layersOrder: [
+        { name: 'notailskin' },
+        { name: 'eyes' },
+        { name: 'chest' },
+        { name: 'mouth' },
+        { name: 'background' },
+        { name: 'floor' },
+        { name: 'shadow' },
+        { name: 'tie' },
+        { name: '3rd_eye' },
+        { name: 'head' },
+
+    ],
+}, {
+    // Creates an additional 100 overlay artworks 1000 with 3rd eye & tie overlay
+    growEditionSizeTo: 5000,
+    layersOrder: [
+        { name: 'notailskin' },
+        { name: 'eyes' },
+        { name: 'chest' },
+        { name: 'mouth' },
+        { name: 'background', },
+        { name: 'floor' },
+        { name: 'shadow' },
+        { name: 'tie' },
+        { name: '3rd_eye' },
+        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
+    ],
+}, {
+    // Creates an additional 100 standard artworks 2300
     growEditionSizeTo: 7300,
     layersOrder: [
-        { name: 'skin' },
+        { name: 'tailedskin' },
         { name: 'eyes' },
         { name: 'chest' },
         { name: 'tail' },
@@ -75,7 +105,7 @@ const layerConfigurations = [{
     // Creates an additional 100 overlay artworks 1576
     growEditionSizeTo: 8876,
     layersOrder: [
-        { name: 'skin' },
+        { name: 'tailedskin' },
         { name: 'eyes' },
         { name: 'chest' },
         { name: 'tail' },
