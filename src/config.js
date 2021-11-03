@@ -86,7 +86,7 @@ const extraMetadata = {
     creator: "Kristen C.",
 };
 
-const rarityDelimiter = "#";
+const rarityDelimiter = "_r";
 
 const uniqueDnaTorrance = 10000;
 
