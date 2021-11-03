@@ -26,7 +26,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 // create 2400  with 3rd eye & tie no overlay
 const layerConfigurations = [{
-    growEditionSizeTo: 2000,
+    growEditionSizeTo: 2,
     layersOrder: [
         { name: 'tailedskin' },
         { name: 'eyes' },
@@ -43,7 +43,7 @@ const layerConfigurations = [{
     ],
 }, {
     // Creates an additional 100 overlay artworks 1000 with 3rd eye & tie overlay
-    growEditionSizeTo: 2900,
+    growEditionSizeTo: 9,
     layersOrder: [
         { name: 'tailedskin' },
         { name: 'eyes' },
@@ -58,7 +58,7 @@ const layerConfigurations = [{
         { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
     ],
 }, {
-    growEditionSizeTo: 4100,
+    growEditionSizeTo: 11,
     layersOrder: [
         { name: 'notailskin' },
         { name: 'eyes' },
@@ -74,7 +74,7 @@ const layerConfigurations = [{
     ],
 }, {
     // Creates an additional 100 overlay artworks 1000 with 3rd eye & tie overlay
-    growEditionSizeTo: 5000,
+    growEditionSizeTo: 15,
     layersOrder: [
         { name: 'notailskin' },
         { name: 'eyes' },
@@ -85,11 +85,11 @@ const layerConfigurations = [{
         { name: 'shadow' },
         { name: 'tie' },
         { name: '3rd_eye' },
-        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
+        { name: 'notailoverlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
     ],
 }, {
     // Creates an additional 100 standard artworks 2300
-    growEditionSizeTo: 7300,
+    growEditionSizeTo: 18,
     layersOrder: [
         { name: 'tailedskin' },
         { name: 'eyes' },
@@ -103,7 +103,7 @@ const layerConfigurations = [{
     ],
 }, {
     // Creates an additional 100 overlay artworks 1576
-    growEditionSizeTo: 8876,
+    growEditionSizeTo: 23,
     layersOrder: [
         { name: 'tailedskin' },
         { name: 'eyes' },
