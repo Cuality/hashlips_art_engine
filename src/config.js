@@ -37,7 +37,7 @@ const layerConfigurations = [{
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
-        { name: '3rd_eye' },
+        { name: '3rdeye' },
         { name: 'head' },
 
     ],
@@ -54,8 +54,8 @@ const layerConfigurations = [{
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
-        { name: '3rd_eye' },
-        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
+        { name: '3rdeye' },
+        { name: 'overlay', options: { blend: MODE.colorBurn, opacity: 0.7 } },
     ],
 }, {
     growEditionSizeTo: 4100,
@@ -68,7 +68,7 @@ const layerConfigurations = [{
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
-        { name: '3rd_eye' },
+        { name: '3rdeye' },
         { name: 'head' },
 
     ],
@@ -84,8 +84,8 @@ const layerConfigurations = [{
         { name: 'floor' },
         { name: 'shadow' },
         { name: 'tie' },
-        { name: '3rd_eye' },
-        { name: 'notailoverlay', options: { blend: MODE.colorBurn, opacity: 0.6 } },
+        { name: '3rdeye' },
+        { name: 'notailoverlay', options: { blend: MODE.colorBurn, opacity: 0.7 } },
     ],
 }, {
     // Creates an additional 100 standard artworks 2300
